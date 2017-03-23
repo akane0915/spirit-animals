@@ -15,18 +15,25 @@
         <h1>Animal</h1>
       </div>
       <form id="formOne">
+        <div class="form-group">
+          <label for="name">Enter your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
         <label for="personality">Are you introverted or extroverted?</label>
         <select class="form-control" id="personality">
+          <option></option>
           <option>Introverted</option>
           <option>Extroverted</option>
         </select>
         <label for="perspective">Are you optimistic or pessimistic?</label>
         <select class="form-control" id="perspective">
+          <option></option>
           <option>Optimistic</option>
           <option>Pessimistic</option>
         </select>
         <label for="team">Do you like to work by yourself or in a team?</label>
         <select class="form-control" id="team">
+          <option></option>
           <option>By myself</option>
           <option>On a team</option>
         </select>
@@ -34,19 +41,19 @@
       </form>
       <div class="result">
         <div id="sloth">
-          <p>Your spirit animal is a sloth!</p>
+          <p><span class="name"></span>, meet the sloth. Sloth, meet <span class="name"></span>. We think you two would move at the same pace!</p>
           <img src="img/sloth.jpg" alt="A picture of a sloth">
         </div>
         <div id="squirrel">
-          <p>Your spirit animal is a squirrel!</p>
+          <p><span class="name"></span>, meet the squirrel. Squirrel, meet <span class="name"></span>. We think you two would enjoy each others company.  Hope you like acorns!</p>
           <img src="img/squirrel.jpg" alt="A picture of a squirrel">
         </div>
         <div id="monkey">
-          <p>Your spirit animal is a monkey!</p>
+          <p><span class="name"></span>, meet the monkey. Monkey, meet <span class="name"></span>. It takes one to know one!</p>
           <img src="img/monkey.jpg" alt="A picture of monkeys">
         </div>
         <div id="dog">
-          <p>Your spirit animal is a dog!</p>
+          <p><span class="name"></span>, meet the dog. Dog, meet <span class="name"></span>. They don't say man's best friend for no reason!</p>
           <img src="img/dog.jpeg" alt="A picture of a dog">
         </div>
       </div>
