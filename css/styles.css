@@ -1,10 +1,17 @@
 .jumbotron {
-  text-align: center;
+  min-height: 400px;
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
 select {
   max-width: 200px;
-  margin: 5px;
+  margin-bottom: 15px;
 }
 #sloth, #squirrel, #monkey, #dog {
   display: none;
+}
+img {
+
 }
