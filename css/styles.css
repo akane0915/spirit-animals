@@ -1,0 +1,10 @@
+.jumbotron {
+  text-align: center;
+}
+select {
+  max-width: 200px;
+  margin: 5px;
+}
+#sloth, #squirrel, #monkey, #dog {
+  display: none;
+}
